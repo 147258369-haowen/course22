@@ -6,11 +6,11 @@
     },
 
     // Uncomment to install NVIDIA CUDA - required for a GPU-powered codespace. For more details, see https://github.com/fastai/course22/blob/master/getting-started-with-codespaces.md#gpu-powered-codespaces
-    // "features": {
-    //     "ghcr.io/devcontainers/features/nvidia-cuda:1": {
-    //         "installCudnn": true
-    //     }
-    // },
+    "features": {
+        "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+            "installCudnn": true
+        }
+    },
 
     "hostRequirements": {
         "storage": "64gb"
